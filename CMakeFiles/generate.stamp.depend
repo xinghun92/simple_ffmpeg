@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+F:/repos/simple_ffmpeg/CMakeLists.txt
+F:/repos/simple_ffmpeg/CMakeFiles/3.11.1/CMakeSystem.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+F:/repos/simple_ffmpeg/CMakeFiles/3.11.1/CMakeCCompiler.cmake
+F:/repos/simple_ffmpeg/CMakeFiles/3.11.1/CMakeCXXCompiler.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Platform/Windows.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCInformation.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+F:/repos/simple_ffmpeg/CMakeFiles/3.11.1/CMakeRCCompiler.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Administrator/scoop/apps/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92713FB3-6E69-3226-A611-6CD5341AD0D7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>simple_ffmpeg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\repos\simple_ffmpeg\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">simple_ffmpeg.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">simple_ffmpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\repos\simple_ffmpeg\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">simple_ffmpeg.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">simple_ffmpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\repos\simple_ffmpeg\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">simple_ffmpeg.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">simple_ffmpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\repos\simple_ffmpeg\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">simple_ffmpeg.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">simple_ffmpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\repos\simple_ffmpeg\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/repos/simple_ffmpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\Administrator\scoop\apps\cmake\3.11.1\bin\cmake.exe -HF:/repos/simple_ffmpeg -BF:/repos/simple_ffmpeg --check-stamp-file F:/repos/simple_ffmpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/repos/simple_ffmpeg/CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\repos\simple_ffmpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\repos\simple_ffmpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/repos/simple_ffmpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\Administrator\scoop\apps\cmake\3.11.1\bin\cmake.exe -HF:/repos/simple_ffmpeg -BF:/repos/simple_ffmpeg --check-stamp-file F:/repos/simple_ffmpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/repos/simple_ffmpeg/CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\repos\simple_ffmpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\repos\simple_ffmpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/repos/simple_ffmpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\Administrator\scoop\apps\cmake\3.11.1\bin\cmake.exe -HF:/repos/simple_ffmpeg -BF:/repos/simple_ffmpeg --check-stamp-file F:/repos/simple_ffmpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/repos/simple_ffmpeg/CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\repos\simple_ffmpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\repos\simple_ffmpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/repos/simple_ffmpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\Administrator\scoop\apps\cmake\3.11.1\bin\cmake.exe -HF:/repos/simple_ffmpeg -BF:/repos/simple_ffmpeg --check-stamp-file F:/repos/simple_ffmpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/repos/simple_ffmpeg/CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeLists.txt;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCCompiler.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;F:\repos\simple_ffmpeg\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\scoop\apps\cmake\3.11.1\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;F:\repos\simple_ffmpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\repos\simple_ffmpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\repos\simple_ffmpeg\cmdutils.c" />
+    <ClCompile Include="F:\repos\simple_ffmpeg\ffmpeg.c" />
+    <ClCompile Include="F:\repos\simple_ffmpeg\ffmpeg_filter.c" />
+    <ClCompile Include="F:\repos\simple_ffmpeg\ffmpeg_opt.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\repos\simple_ffmpeg\ZERO_CHECK.vcxproj">
+      <Project>{CBB89964-5116-33EC-8C3B-1DDBC9EB6678}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

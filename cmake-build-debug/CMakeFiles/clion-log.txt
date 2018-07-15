@@ -1,0 +1,4 @@
+Cannot generate into F:\repos\simple_ffmpeg
+It was created with incompatible generator 'Visual Studio 14 2015'
+
+Please either delete it manually or select another generation directory

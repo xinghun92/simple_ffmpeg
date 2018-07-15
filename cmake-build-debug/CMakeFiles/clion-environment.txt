@@ -1,0 +1,4 @@
+ToolSet: w64 6.0@C:\Users\Administrator\scoop\apps\gcc\7.3.0
+Options: 
+
+Options:
